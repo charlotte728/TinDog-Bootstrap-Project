@@ -107,7 +107,7 @@ padding:0 18px;
  .carousel-item{
     padding: 7% 15%;
  }
- 
+
  /* Press section*/
  #press{
     background-color: #ef8172;
@@ -117,4 +117,12 @@ padding:0 18px;
  .press-item{
     width: 20%;
     padding: 2rem 50px;
+ }
+ /* Pricing Section */
+ .card{
+    margin-bottom: 2rem;
+ }
+ .pricing-title{
+    margin: 3rem auto;
+    text-align: center;
  }
