@@ -57,18 +57,22 @@ padding:0 18px;
 
  /* title image*/
  .title-image {
-    width:20rem;
+    width:17rem;
     height: 28rem;
     object-fit:cover;
     border-radius: 1rem;
-    box-shadow: 10 10 30px #fff;
     margin-left: 5rem;
     transform: rotate(15deg) ;
+    position: absolute;
+    right:6rem;    
  }
 
  /* Features  Section*/
  #features{
    padding: 7% 15%;
+   background-color: #fff;
+   position: relative;
+   z-index:1;
  }
 
  .feature-item{
@@ -125,4 +129,10 @@ padding:0 18px;
  .pricing-title{
     margin: 3rem auto;
     text-align: center;
+ }
+
+ /* Call to Action  */
+ #cta{
+   background-color: #ff4c68; 
+   margin: 0 auto;
  }
